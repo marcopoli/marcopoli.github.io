@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marco Polignano - Personal Portfolio</title>
+
+  <!--
+    - favicon
+
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  -->
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar.jpeg" alt="Marco Polignano" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ph.D. Marco Polignano" style="font-size:20px !important">Ph.D. Marco Polignano</h1>
+          <p style="color:hsl(35, 100%, 68%);font-size:18px;">Assistant Professor in AI</p><br>
+          <p style="color:hsl(35, 100%, 68%);font-size:12px;">Citations:	1098<br> H-Index: 16<br> i10-index: 23</p><br>
+
+          <p class="title"><br> * Natural Language Processing <br> * Recommender Systems <br> * Machine Learning <br> * Data Mining<br><br></p>
+        </div>
+        <div class="info-content">
+          <h1 class="name" style="font-size:20px !important">Open to...</h1>
+
+          <p class="title"> * Research Collaborations <br> * Invited Talks <br> * Editorial Boards <br> * Visiting Periods<br>* Serve as Conference Chair<br>* Join Organizing Committees<br></p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:marco.polignano@uniba.it" class="contact-link" style="font-size:11px !important">marco.polignano@uniba.it</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+390805442312" class="contact-link">+39 080 5442312</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bari, Apulia, Italy</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://scholar.google.it/citations?user=sjQSYGQAAAAJ&hl=it&oi=ao" class="social-link">
+              <ion-icon name="logo-google">https://scholar.google.it/citations?user=sjQSYGQAAAAJ&hl=it&oi=ao</ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.scopus.com/authid/detail.uri?authorId=56458088400" class="social-link">
+              <ion-icon name="book">https://www.scopus.com/authid/detail.uri?authorId=56458088400</ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://orcid.org/0000-0002-3939-0136" class="social-link">
+              <ion-icon name="id-card">https://orcid.org/0000-0002-3939-0136</ion-icon>
+            </a>
+          </li>
+
+
+          <li class="social-item">
+            <a href="https://twitter.com/m_polignano" class="social-link">
+              <ion-icon name="logo-twitter">https://twitter.com/m_polignano</ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/marco-polignano-a67a1a28/" class="social-link">
+              <ion-icon name="logo-linkedin">https://www.linkedin.com/in/marco-polignano-a67a1a28/</ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text" style="text-align:justify;">
+          <p>
+            I am a senior <b>Professor Assistant</b> in the <b>Computer Science Department at the University of Bari Aldo Moro, Italy</b>. I am a member of the SWAP research group, where I contribute to cutting-edge advancements in the field of <b style="color:cyan;">AI, NLP, and Recommender Systems</b>.
+            From 2014 to 2017, I pursued my Ph.D. studies, culminating in a successful thesis defense of Computer Science and Mathematical topics in <b>April 2018</b>. My doctoral thesis, titled <i>"An affect-aware computational model for supporting decision-making through recommender systems"</i>, showcased my expertise and innovative thinking in the field of Machine Learning.<br>
+          </p>
+          <p>
+            I served as a <b>program committee member for several esteemed international conferences</b>, including IJCAI, ECAI, IUI, AIVR, RecSys, UMAP, and WWW. My involvement in these conferences demonstrates my commitment to advancing research and fostering collaboration among estimated colleagues.
+            I also played key roles in organizing significant scientific events. I served as an <b>organizing committee member</b> for the Ai*iA 2017 conference and took on the role of co-organizer for the EVALITA 2018 challenge – ABSITA, which focused on aspect-based sentiment analysis.
+            I have also contributed to organizing a successful edition of <b>EVALITA 2023, NL4AI 2022/23 and the UMAP 2020/23 ExUm Workshops</b>, emphasizing user modeling, content personalization, and semantic representation. Recently, I also supported the community as a <b style="color:cyan;">co-chair for ACL 2022 and EACL 2024</b> international conferences.
+          </p>
+          <p>
+            My expertise has been sought after serving as an official reviewer for numerous international journals, further establishing my reputation as a knowledgeable authority in NLP and Recommender Systems. I am currently in the <b>Reviewer Editorial Board</b> of more than <b>30 Computer Science International Journals</b>,
+            including Information Processing and Management (Elsevier), Expert Systems with Applications (Elsevier), and IEEE Transactions on Knowledge and Data Engineering (IEEE Press).<br>
+            Notably, I was awarded the prestigious <b style="color:cyan;">Marie Skłodowska-Curie Research and Innovation Staff Exchange (MSCA-RISE) fellowship</b> in both 2016 and 2018. During these periods, I actively participated in Project No. 691071, titled "Seo-Dwarf: Semantic EO Data Web Alert and Retrieval Framework," further expanding my expertise and contributing to groundbreaking research.
+          </p>
+          My research interests encompass a wide range of areas, including <b>Information Filtering, Recommender Systems, Natural Language Processing, and Cognitive Computing</b>. Throughout my career, I acquired valuable skills in Artificial Intelligence, Machine Learning, and Data Mining, particularly in the context of big data.
+          As an accomplished Professor Assistant and AI researcher, I continue to pursue innovation and shape the future of the AI field. Together, let's embrace the possibilities and drive positive change through cutting-edge research and innovation.
+
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="AI Cutting-Edge Models" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">LLMs Models</h4>
+
+                <p class="service-item-text">
+                  I am currently active in the implementation of state of the art AI models in the field of NLP and Recommender Systems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Symbiotic AI" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Symbiotic AI</h4>
+
+                <p class="service-item-text">
+                  I work on innovative topics that aim to create AI models that are centered on human-machine symbiosis.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="Holistic User Modeling" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Holistic User Modeling</h4>
+
+                <p class="service-item-text">
+                  In several research projects I am focusing on holistic user profiling approaches.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Multimodal Data Sources</h4>
+
+                <p class="service-item-text">
+                I am actively on the possibility of dealing with different types of data sources to make the AI models versatile and robust.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Ph.D. in Computer Science and Mathematics</h4>
+
+              <span>2014 - 2017 (Ph.D. Defence April 2018)</span>
+
+              <p class="timeline-text">
+                Doctoral thesis titled "An affect-aware computational model for supporting decision-making through recommender systems".
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Laurea Degree in Computer Science (summa cum Laude)</h4>
+
+              <span>2008 — 2013</span>
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Professor- RTD-A (SSD INF/01 - Computer Science)</h4>
+
+              <span>December 2020 — Present</span>
+
+              <p class="timeline-text">
+                Università degli Studi di Bari Aldo Moro, Dipartimento di Informatica<br>
+                ▪	Research topics:  Machine Learning, Natural Language Processing, Recommender Systems, Data Mining, Data Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Post-doctoral Research Fellow (SSD INF/01 - Computer Science)</h4>
+
+              <span>Jan 2018 — Dec 2020</span>
+
+              <p class="timeline-text">
+                Università degli Studi di Bari Aldo Moro, Dipartimento di Informatica
+                ▪	Research topics:  Machine Learning, Natural Language Processing, Recommender Systems, Data Mining, Data Science
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Fellow (Marie Skłodowska-Curie actions)</h4>
+
+              <span>Mar 2016 - Jul 2016, Oct 2018 - Nov 2018, Apr 2019</span>
+
+              <p class="timeline-text">
+                Planetek Hellas, Marousi, Athens, Greece
+                ▪	Research topics:  Machine Learning, Natural Language Processing, Knowledge Representation
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+        <section class="skill">
+          <br><br>
+          <h3 class="h3 skills-title">INVITED TALKS</h3>
+          <ul style="color:white; list-style: square;">
+            <li style="list-style: square;"><b style="color:hsl(45, 54%, 58%)">CREA - Council for Research in Agriculture and Agricultural Economics of the Ministry of the Italian Republic</b> 20/10/2023. TITLE: “Sentiment Analysis with CREA: Deep learning for content analysis”</li>
+            <li style="list-style: square;"><b style="color:hsl(45, 54%, 58%)">Workshop in Quantitative Finance</b> the 25th and 26th of May 2023, University of Bologna, Italy. TITLE: “Information Extraction for Economics”</li>
+            <li style="list-style: square;"><b style="color:hsl(45, 54%, 58%)">RecSys Summer School 2023</b>, Supported by ACM RecSys, ACM Europe Council, DDSA, and SIGCHI, June 12-16, 2023, Copenhagen, DK. TITLE: “Knowledge-based recommendation thrugh ClayRS”</li>
+            <li style="list-style: square;"><b style="color:hsl(45, 54%, 58%)">SCAI'21</b>, SCAI: Search-Oriented Conversational AI workshop. Invited speaker to present the research work pursued in the area of conversational and recommender systems. "MyrrorBot: A Digital Assistant Based on Holistic User Models for Personalized Access to Online Services TOIS 21" </li>
+            <li style="list-style: square;"><b style="color:hsl(45, 54%, 58%)">UMAP 2022/2023</b>, ACM Conference on User Modeling, Adaptation and Personalization. Tutorial about: “Semantics-aware Content Representations for Reproducible Recommender Systems (SCoRe)”</li>
+          </ul>
+        </section>
+        <section class="skill">
+          <br><br>
+          <h3 class="h3 skills-title">EDITORIAL ACTIVITY</h3>
+          <h4 class="h4">Reviewer Board:</h4>
+          <ul style="color:hsl(45, 54%, 58%); list-style: square;">
+            <li style="list-style: square;">More than 35 reviews for volumes and international High-Quality Journals including <b>Elsevier, Springer, IEEE, Wiley</b></li>
+          </ul>
+        </section>
+
+        <section class="skill">
+          <br><br>
+          <h3 class="h3 skills-title">TEACHING</h3>
+          <ul>
+            <li style="color:white;list-style: square;"> <span style="color:hsl(45, 54%, 58%)">"Deep Learning for Natural Language Processing".</span>  3 ECTS credits, doctorate in Computer Science and Mathematics, University of Bari, a.y. 2021/2022</li>
+            <li style="color:white;list-style: square;"> <span style="color:hsl(45, 54%, 58%)">"Deep Learning for Content Representation in Recommender Systems".</span> 3 ECTS credits, Doctorate in Computer Science and Mathematics, University of Bari, a.y. 2022/2023</li>
+          <ul>
+        </section>
+
+        <section class="projects">
+          <br><br>
+          <h3 class="h3 skills-title">PROJECTS</h3>
+
+          <ul>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2021 - Dec 2023</span>	<b>HELENA</b>: An Intelligent Dialog Assistant for Remote Patient Monitoring. “Research for Innovation (REFIN)” POR Puglia 2014/2020 – Asse X – Azione 10.4. Research for Innovation – REFIN 10AC8FB6.</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2020 - Apr 2020</span>	<b>E-SHELF</b>: electronic shopping & home delivery of edible goods with low environmental footprint. POR Puglia FESR 2014-2020 – Azione 1.6 bando INNONETWORK “sostegno alle attività di R&S per lo sviluppo di nuove tecnologie sostenibili, di nuovi prodotti e servizi”</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2018 - Dec 2018</span>	<b>DECiSION</b>: data-driven customer service innovation. INNONETWORK – Aiuti a sostegno alle Attività di R&S BQS5153 – DECISION - DATA-DRIVEN CUSTOMER SERVICE INNOVATION.</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2015 - Dec 2016</span>	<b>Digital Services Ecosystem DSE</b>: PON03PE_00136_1, ICT/Tecnologie per Smart Communities.</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2014 - Dec 2014</span>	<b>MAIVISTO</b> Massive Adaptive Internet VIdeo STreaming using the clOud - Bando Startup MIUR 2014/2015 (D.D 436 del 13 Marzo 2013).</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2014 – Dec 2014</span>	<b>ParsEco</b>: Recommender systems and backoffice for Web Portal realized to increase the recycle of used domestic oils, "Apulian ICT Living Labs" P.O. FESR PUGLIA 2007-2013 - Asse I - Linea di Intervento 1.4 - Azione 1.4.2. - A.D. n. 307 del 31.07.2012.</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Jan 2013 – Dec 2013</span>	<b>HealthNet</b>: Recommender system and backoffice for HealthNet (The Health Social network), "Apulian ICT Living Labs" P.O. FESR PUGLIA 2007-2013 - Asse I - Linea di Intervento 1.4 - Azione 1.4.2. - A.D. n. 307 del 31.07.2012. </li>
+          </ul><br>
+
+          <h4 class="h4">Project reviewer</h4>
+          <ul>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Expert evaluator for the Austrian Science Fund (FWF)</span></li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">Expert evaluator for the -	Israel Science Foundation (ISF)</span></li>
+          </ul>
+          <br><br>
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">COMMUNITY SERVICE</h3>
+          <h4 class="h4">Co-chair:</h4>
+          <ul>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">ACL 2022</span> 60th Annual Meeting of the Association for Computational Linguistics</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">EVALITA 2023</span> Evaluation of NLP and Speech Tools for Italian 2023</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">EACL 2024</span> The 18th Conference of the European Chapter of the Association for Computational Linguistics</li>
+          </ul><br>
+          <h4 class="h4">Workshop Co-Chair:</h4>
+          <ul>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">ATE_ABSITA 2020</span> Aspect Term Extraction and Aspect-based Sentiment Analysis Task co-located event of the 7th Italian Conference on Computational Linguistics - CLiC-it 2020 </li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">ExUm</span> International Workshop on Transparent Personalization Methods based on Heterogeneous Personal Data at the ACM International Conference On User Modelling, Adaptation And Personalization: ‘19-’20-‘21-‘22-‘23</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">IntRS</span> Workshop on Interfaces and Human Decision Making for Recommender Systems at the ACM International Conference on Recommender Systems: '22-'23</li>
+            <li style="color:white;"> <span style="color:hsl(45, 54%, 58%)">NL4AI</span> Workshop on Natural Language for Artificial Intelligence (NL4AI, 6th edition) Co-located at the International Conference of the Italian Association for Artificial intelligence: '22-'23</li>
+
+          </ul><br>
+
+          <h4 class="h4">TPC member of some of the most relevant scientific conferences</h4>
+            <ul style="color:antiquewhite; list-style: square;">
+              <li style="list-style: square;">IUI 2017-2018-2024, International Intelligent User Interface conference - GRIN-GII A </li>
+              <li style="list-style: square;">UMAP 2018/2022/2023, User Modeling, Adaptation and Personalization conference - GRIN-GII </li>
+              <li style="list-style: square;">IJCAI 2020, International Joint Conference on Artificial Intelligence - GRIN-GII A++ </li>
+              <li style="list-style: square;">ECAI 2020, European Conference on Artificial Intelligence - GRIN-GII A- </li>
+              <li style="list-style: square;">RecSys 2020-2022-2023, Conference on Recommender Systems - GRIN-GII A </li>
+              <li style="list-style: square;">TheWebConf 2022/2023 (WWW), International World Wide Web Conference - GRIN-GII A++ </li>
+              <li style="list-style: square;">Conference on Artificial Intelligence AAAI 2023, GRIN-GII A++</li>
+              <li style="list-style: square;">ACL 2023, Annual Meeting of the Association for Computational Linguistics - GRIN-GII A ++</li>
+              <li style="list-style: square;">SIGIR 2023, Annual Conference of the Association for Computing Machinery Special Interest Group in Information Retrieval, - GRIN-GII A ++</li>
+              <li style="list-style: square;">EACL 2024, The 18th Conference of the European Chapter of the Association for Computational Linguistics, - GRIN-GII A +</li>
+              <li style="list-style: square;">ECIR 2024, The 46th European Conference on Information Retrieval - GRIN-GII A -</li>
+            </ul>
+        </section>
+
+        <section class="skill">
+          <br><br>
+          <h3 class="h3 skills-title">FELLOWSHIP</h3>
+          <span style="color:white;"><b style="color:hsl(45, 54%, 58%)">Marie Skłodowska-Curie RISE action Horizon 2020: SEO-DWARF (Semantic EO Data Web Alert and Retrieval Framework) project n° 691071</b>. The research period at the foreign institution was held in Athens, Greece at the Planetek Hellas Research Center, Athens, Greece supervised by the coordinator of research activities Stelios Bollanos. The period was held from 01/03/2016 to 31/07/2016. A second secondment, in the same location, was held from 25/10/2018 to 09/11/2018 and from 02/04/2019 to 15/04/2019. For a total of 6 months of which 5 were continuous.
+          </span>
+        </section>
+
+        <section class="skill">
+          <br><br>
+          <h3 class="h3 skills-title">Technological transfer</h3>
+          <span style="color:white;"><b style="color:hsl(45, 54%, 58%)">Founding Partner of Asteria S.r.l.</b> The company launched in 2020 through the regional public funding Pugliesi Innovativi (PIN - Initiative financed with resources from the Fund for Development and Cohesion and the 2014/2020 Puglia OP) is concerned with establishing strong collaborations with regional and national industry areas in order to transfer university KNOW-HOW into the industrial world. The topics covered by the company cover those high-tech solutions based on Artificial Intelligence applied to Conversational Agents, Recommender Systems, and Natural Language Processing.
+          </span>
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Publications</h2>
+        </header>
+        <span style="color:hsl(45, 54%, 58%)">I have authored more than 60 scientific articles in major research venues including top-level conferences and highly cited and reputable journals.</span><br><br>
+        <span style="color:white;">The updated list of articles is available here:</span> <a href="https://dblp.org/pid/162/9037.html" style="color:cyan;">https://dblp.org/pid/162/9037.html</a> <span style="color:white;"><br> <i>or here:</i></span> <a href="https://scholar.google.it/citations?user=sjQSYGQAAAAJ&hl=it&oi=ao" style="color:cyan;">https://scholar.google.it/citations?user=sjQSYGQAAAAJ&hl=it&oi=ao</a>
+
+      </article>
+
+
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
